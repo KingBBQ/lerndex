@@ -1,0 +1,306 @@
+[
+    {
+        "id": "artikel",
+        "title": "Artikel: Der, Die, Das",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Die Grammatikgeschlechter im Deutschen meistern.",
+        "content": "Im Deutschen hat jedes Nomen ein grammatikalisches Geschlecht: **maskulin** (der), **feminin** (die) oder **neutral** (das).\n\n### Maskulin (der)\n- Männliche Personen: der Mann, der Vater\n- Wochentage, Monate, Jahreszeiten: der Montag, der Januar, der Sommer\n- Endungen: -er, -ling, -ig, -ismus → der Bäcker, der Frühling\n\n### Feminin (die)\n- Weibliche Personen: die Frau, die Mutter\n- Endungen: -heit, -keit, -ung, -schaft, -tät, -ion → die Freiheit, die Zeitung\n- Viele Bäume und Blumen: die Rose, die Eiche\n\n### Neutral (das)\n- Verkleinerte Wörter (-chen, -lein): das Mädchen, das Blümlein\n- Infinitive als Nomen: das Laufen, das Essen\n- Endungen: -um, -ment, -nis → das Museum, das Instrument"
+    },
+    {
+        "id": "kasus",
+        "title": "Die vier Fälle (Kasus)",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Nominativ, Genitiv, Dativ und Akkusativ verstehen.",
+        "content": "Das Deutsche hat vier grammatikalische Fälle (Kasus):\n\n### Nominativ (Wer/Was?)\nDas Subjekt des Satzes: **Der Mann** schläft.\n\n### Genitiv (Wessen?)\nZugehörigkeit: Das Buch **des Mannes**.\n\n### Dativ (Wem?)\nDas indirekte Objekt: Ich gebe **dem Mann** das Buch.\n\n### Akkusativ (Wen/Was?)\nDas direkte Objekt: Ich sehe **den Mann**.\n\n### Artikel im Überblick\n| | Mask. | Fem. | Neut. | Plural |\n|---|---|---|---|---|\n| Nom. | der | die | das | die |\n| Gen. | des | der | des | der |\n| Dat. | dem | der | dem | den |\n| Akk. | den | die | das | die |"
+    },
+    {
+        "id": "adjektivdeklination",
+        "title": "Adjektivdeklination",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Adjektivendungen nach Artikel richtig anpassen.",
+        "content": "Adjektive vor einem Nomen müssen dekliniert werden. \n\n### Nach bestimmtem Artikel (der/die/das)\n| | Mask. | Fem. | Neut. | Plural |\n|---|---|---|---|---|\n| Nom. | -e | -e | -e | -en |\n| Akk. | -en | -e | -e | -en |\n| Dat. | -en | -en | -en | -en |\n\n**Beispiel:** der **alte** Mann, die **alte** Frau, das **alte** Haus\n\n### Nach unbestimmtem Artikel (ein/eine)\n| | Mask. | Fem. | Neut. |\n|---|---|---|---|\n| Nom. | -er | -e | -es |\n| Akk. | -en | -e | -es |\n| Dat. | -en | -en | -en |"
+    },
+    {
+        "id": "praeteritum",
+        "title": "Präteritum (Vergangenheit)",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Die einfache Vergangenheitsform im Deutschen.",
+        "content": "Das Präteritum ist die erzählende Vergangenheitsform, besonders in der Schriftsprache.\n\n### Schwache Verben (regelmäßig)\nStamm + **-te** + Personalpronomen\n\nmachen → ich mach**te**, du mach**test**, er mach**te**\n\n### Starke Verben (unregelmäßig)\nVokalwechsel im Stamm:\n- gehen → **ging**\n- kommen → **kam**\n- sehen → **sah**\n- haben → **hatte**\n- sein → **war**\n\n### Beispielsätze\n- Gestern **spielte** ich Fußball.\n- Er **kam** um 10 Uhr nach Hause.\n- Wir **waren** sehr müde."
+    },
+    {
+        "id": "perfekt",
+        "title": "Perfekt (gesprochenene Vergangenheit)",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Haben oder sein? Das Perfekt richtig bilden.",
+        "content": "Das Perfekt wird im Alltag und in der Umgangssprache verwendet.\n\n### Bildung: haben/sein + Partizip II\n\n**haben** → für die meisten Verben\n- Ich **habe** gespielt. / Er **hat** gegessen.\n\n**sein** → für Bewegungsverben und Zustandsänderungen\n- Ich **bin** gefahren. / Sie **ist** aufgewacht.\n\n### Partizip II Bildung\n- Schwache Verben: ge- + Stamm + -t → gespielt, gemacht\n- Starke Verben: ge- + Stamm (Vokalwechsel) + -en → gegangen, gesehen\n- Untrennbare Verben: ohne ge- → besucht, verkauft\n- Trennbare Verben: ge- in der Mitte → aufgemacht, eingekauft"
+    },
+    {
+        "id": "konjunktiv",
+        "title": "Konjunktiv II",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Wünsche, Möglichkeiten und höfliche Bitten ausdrücken.",
+        "content": "Der Konjunktiv II drückt Unwirkliches, Wünsche und Hypothesen aus.\n\n### Bildung\n- **würde + Infinitiv** (am häufigsten): Ich **würde** gerne kommen.\n- Häufige unregelmäßige Formen:\n  - sein → **wäre**\n  - haben → **hätte**\n  - können → **könnte**\n  - müssen → **müsste**\n  - dürfen → **dürfte**\n\n### Verwendung\n**Wünsche:** Wenn ich reich **wäre**, ...\n**Höfliche Bitten:** **Könnten** Sie mir helfen?\n**Ratschläge:** Du **solltest** mehr schlafen.\n**Hypothesen:** Das **wäre** schön!"
+    },
+    {
+        "id": "passiv",
+        "title": "Passiv",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Das Passiv bilden und verwenden.",
+        "content": "Im Passiv steht das Objekt im Mittelpunkt, nicht das handelnde Subjekt.\n\n### Vorgangspassiv: werden + Partizip II\n- Präsens: Das Buch **wird** gelesen.\n- Präteritum: Das Buch **wurde** gelesen.\n- Perfekt: Das Buch **ist** gelesen **worden**.\n\n### Zustandspassiv: sein + Partizip II\nBeschreibt einen bereits eingetretenen Zustand:\n- Die Tür **ist** geöffnet.\n- Das Formular **ist** ausgefüllt.\n\n### Passiv mit Modalverben\n- Das **muss** gemacht **werden**.\n- Es **kann** verbessert **werden**."
+    },
+    {
+        "id": "relativsaetze",
+        "title": "Relativsätze",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Nomen mit Relativsätzen genauer beschreiben.",
+        "content": "Relativsätze erklären oder beschreiben ein Nomen genauer. Sie werden mit einem Relativpronomen eingeleitet.\n\n### Relativpronomen\n| | Mask. | Fem. | Neut. | Plural |\n|---|---|---|---|---|\n| Nom. | der | die | das | die |\n| Gen. | dessen | deren | dessen | deren |\n| Dat. | dem | der | dem | denen |\n| Akk. | den | die | das | die |\n\n### Beispiele\n- Der Mann, **der** dort steht, ist mein Vater.\n- Die Frau, **die** ich kenne, heißt Anna.\n- Das Buch, **das** ich lese, ist spannend.\n- Die Kinder, **denen** ich half, sind dankbar."
+    },
+    {
+        "id": "modalverben",
+        "title": "Modalverben",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Können, müssen, dürfen, wollen, sollen, mögen.",
+        "content": "Modalverben verändern die Bedeutung des Hauptverbs und stehen immer mit einem Infinitiv.\n\n### Die 6 Modalverben\n| Verb | Bedeutung | Beispiel |\n|------|-----------|----------|\n| **können** | Fähigkeit | Ich kann schwimmen. |\n| **müssen** | Notwendigkeit | Du musst lernen. |\n| **dürfen** | Erlaubnis | Er darf kommen. |\n| **wollen** | Wille | Wir wollen reisen. |\n| **sollen** | Auftrag | Ihr sollt still sein. |\n| **mögen** | Vorliebe | Sie mag Musik. |\n\n### Konjugation (Präsens)\n| | können | müssen | dürfen |\n|--|--|--|--|\n| ich | kann | muss | darf |\n| du | kannst | musst | darfst |\n| er/sie | kann | muss | darf |"
+    },
+    {
+        "id": "wortstellung",
+        "title": "Wortstellung im Satz",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Das Verb steht immer an zweiter Stelle.",
+        "content": "Im deutschen Hauptsatz steht das konjugierte Verb immer an **zweiter Position**.\n\n### Grundregel: Subjekt-Verb-Objekt\nIch **esse** einen Apfel.\n\n### Nach einem Adverb: Verb vor Subjekt\nHeute **esse** ich einen Apfel.\nGestern **hat** er gearbeitet.\n\n### Nebensatz: Verb am Ende\n- Ich weiß, dass er **kommt**.\n- Weil es regnet, bleibe ich zu Hause → Nebensatz: es regnet **→** Verb am Ende\n\n### Trennbare Verben: Präfix ans Ende\n- anrufen → Ich **rufe** dich **an**.\n- aufmachen → Sie **macht** das Fenster **auf**."
+    },
+    {
+        "id": "ss-vs-sz",
+        "title": "ss vs. ß",
+        "category": "Rechtschreibung",
+        "emoji": "",
+        "description": "Wann schreibt man ss und wann ß?",
+        "content": "Die Unterscheidung zwischen **ss** und **ß** ist eine häufige Fehlerquelle.\n\n### Die Regel\n**ß** steht nach einem **langen Vokal** oder **Diphthong**:\n- Straße (langes a)\n- Fuß (langes u)\n- heißen (Diphthong ei)\n\n**ss** steht nach einem **kurzen Vokal**:\n- Wasser (kurzes a)\n- Fluss (kurzes u)\n- Schloss (kurzes o)\n\n### Gedächtnisstütze\nSprich das Wort laut aus: Klingt der Vokal **lang**? → **ß** | **Kurz**? → **ss**\n\n### Wichtige Ausnahmen\n- Am Satzende und vor Konsonant immer ß: er ißt → er isst (neue Rechtschreibung: **isst**)\n- In der Schweiz und Liechtenstein wird **ß** nicht verwendet (immer ss)"
+    },
+    {
+        "id": "gross-kleinschreibung",
+        "title": "Groß- und Kleinschreibung",
+        "category": "Rechtschreibung",
+        "emoji": "",
+        "description": "Wann schreibt man groß, wann klein?",
+        "content": "Im Deutschen werden Nomen großgeschrieben – das ist einzigartig unter den europäischen Sprachen.\n\n### Großschreibung\n- **Alle Nomen:** der Tisch, die Schule, das Leben\n- **Nominalisierte Wörter:** das Gute, das Laufen, nichts Neues\n- **Satzanfang** und nach **Punkt**\n- **Anredepronomen (formell):** Sie, Ihr, Ihnen\n\n### Kleinschreibung\n- Adjektive: schön, groß, gut\n- Verben: laufen, essen, sehen\n- Adverbien: heute, schnell, sehr\n- Indefinitpronomen: man, jemand, niemand\n\n### Häufige Fehler\n- ❌ morgen früh (falsch)\n- ✅ morgen früh (adverbiell, klein)\n- ❌ schreib mir (formelle Anrede falsch)\n- ✅ schreib mir vs. Schreiben Sie mir"
+    },
+    {
+        "id": "komma",
+        "title": "Kommaregeln",
+        "category": "Zeichensetzung",
+        "emoji": "",
+        "description": "Wann und wo Kommas gesetzt werden müssen.",
+        "content": "Das Komma trennt Satzteile und schafft Klarheit.\n\n### Komma bei Nebensätzen\nVor einleitenden Konjunktionen (weil, dass, ob, wenn, als...):\n- Ich komme**,** weil ich will.\n- Er fragt**,** ob du kommst.\n\n### Komma bei Aufzählungen\nZwischen gleichartigen Satzgliedern, aber nicht vor \"und\" oder \"oder\":\n- Ich kaufe Äpfel**,** Birnen und Bananen.\n- Du kannst gehen**,** bleiben oder warten.\n\n### Kein Komma\n- Vor und/oder bei zwei gleichwertigen Hauptsätzen: Du lernst und ich helfe.\n- Vor Intinitivgruppen bei kurzen Ausdrücken: Er versucht zu kommen.\n\n### Komma bei Infinitivgruppen (mit zu)\nBei längeren Infinitivgruppen:\n- Er bat mich**,** ihm das Buch zu geben."
+    },
+    {
+        "id": "interpunktion",
+        "title": "Satzzeichen im Überblick",
+        "category": "Zeichensetzung",
+        "emoji": "",
+        "description": "Punkt, Fragezeichen, Ausrufezeichen and mehr.",
+        "content": "### Der Punkt (.)\nEndet normale Aussagesätze: Ich gehe nach Hause.\n\n### Das Fragezeichen (?)\nNach direkten Fragen: Wohin gehst du?\n\n### Das Ausrufezeichen (!)\nNach Ausrufen, Befehlen, Wünschen:\n- Komm sofort her!\n- Herzlichen Glückwunsch!\n\n### Der Doppelpunkt (:)\nKündigt an: eine Aufzählung, ein Zitat, eine Erklärung:\n- Er hatte nur einen Wunsch: Frieden.\n\n### Der Gedankenstrich (-)\nEinschub in einem Satz oder Kontrast:\n- Das Wetter - leider - war schlecht.\n\n### Anführungszeichen\n- In Deutschland: unten öffnen, oben schließen\n- Alternativ: Guillemets »Zitat«"
+    },
+    {
+        "id": "praeposition",
+        "title": "Präpositionen & Fälle",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Welche Präposition welchen Kasus verlangt.",
+        "content": "Präpositionen bestimmen den Kasus des folgenden Nomens.\n\n### Immer Akkusativ\n**durch, für, gegen, ohne, um, bis, entlang**\n- durch **den** Wald\n- für **die** Kinder\n- gegen **den** Strom\n\n### Immer Dativ\n**aus, bei, mit, nach, seit, von, zu, gegenüber, außer**\n- aus **dem** Haus\n- mit **der** Familie\n- seit **einem** Jahr\n\n### Wechselpräpositionen (Dativ/Akkusativ)\n**an, auf, hinter, in, neben, über, unter, vor, zwischen**\n- **Wo?** → Dativ: Das Bild hängt an **der** Wand.\n- **Wohin?** → Akkusativ: Ich hänge das Bild an **die** Wand."
+    },
+    {
+        "id": "konjunktionen",
+        "title": "Konjunktionen",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Haupt- und Nebensatzkonjunktionen kennen.",
+        "content": "### Koordinierende Konjunktionen (verbinden Hauptsätze)\n→ kein Kasus-/Wortstellungseffekt\n- **und** – Ich gehe und er bleibt.\n- **aber** – Ich will, aber ich kann nicht.\n- **oder** – Kommst du oder bleibst du?\n- **denn** – Ich bleibe, denn es regnet.\n\n### Subordinierende Konjunktionen (leiten Nebensätze ein)\n→ Verb ans Ende des Nebensatzes!\n- **weil** – Ich bleibe, weil es regnet.\n- **dass** – Ich weiß, dass er kommt.\n- **ob** – Ich frage, ob du kommst.\n- **wenn** – Ich komme, wenn ich Zeit habe.\n- **als** – Als ich jung war, spielte ich viel.\n- **obwohl** – Obwohl es regnet, gehe ich."
+    },
+    {
+        "id": "trennbare-verben",
+        "title": "Trennbare Verben",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Verben die sich im Satz aufteilen.",
+        "content": "Trennbare Verben haben ein Präfix, das im Satz abgetrennt und ans Ende gestellt wird.\n\n### Häufige trennbare Präfixe\nan-, ab-, auf-, aus-, ein-, mit-, vor-, zu-, hinaus-, zurück-\n\n### Beispiele im Präsens\n- anrufen → Ich **rufe** dich **an**.\n- aufmachen → Sie **macht** das Fenster **auf**.\n- einladen → Er **lädt** uns **ein**.\n\n### Im Infinitiv und Partizip II\n- Infinitiv: anrufen, aufmachen (zusammen)\n- Partizip II: **an**ge**rufen**, **auf**ge**macht** (ge- in der Mitte!)\n\n### Nicht trennbare Präfixe\nbe-, emp-, ent-, er-, ge-, miss-, ver-, zer-, über-, unter- (nicht betont)\n- besuchen → Er **besucht** uns. (kein Abtrennen!)"
+    },
+    {
+        "id": "substantivierung",
+        "title": "Substantivierung von Verben & Adjektiven",
+        "category": "Rechtschreibung",
+        "emoji": "",
+        "description": "Wann werden Verben und Adjektive wie Nomen behandelt?",
+        "content": "Verben und Adjektive können als Nomen verwendet werden – dann werden sie großgeschrieben.\n\n### Substantivierte Verben\n- laufen → **das Laufen**\n- essen → **das Essen**\n- lernen → **das Lernen** macht Spaß.\n\n### Substantivierte Adjektive\n- schön → **das Schöne** an diesem Tag\n- alt → **der Alte** (= der alte Mann)\n- krank → **die Kranken** (= kranke Menschen)\n\n### Mit Nichts/Etwas\n**großgeschrieben:** nichts **Neues**, etwas **Interessantes**\n\n### Tipp zur Erkennung\nKann man \"das\" oder einen Artikel davor setzen? → Großschreiben!\n- das Gute, ein Bekannter, etwas Seltsames"
+    },
+    {
+        "id": "fremdwoerter",
+        "title": "Fremdwörter richtig schreiben",
+        "category": "Rechtschreibung",
+        "emoji": "",
+        "description": "Häufige Fremdwörter und ihre Schreibung.",
+        "content": "Viele Fremdwörter kommen aus dem Lateinischen, Griechischen, Französischen oder Englischen.\n\n### Häufig falsch geschrieben\n| Falsch | Richtig |\n|--------|----------|\n| Fotografie | Fotografie / Photographie |\n| Piza | Pizza |\n| Resaurant | Restaurant |\n| Kariere | Karriere |\n| Adresse | Adresse ✓ |\n\n### Eingedeutschte Schreibungen\n- Foto (statt Photo)\n- Telefon (statt Telephone)\n- Fantasie (statt Phantasie) – beide korrekt!\n\n### Tipps\n1. Bei Unsicherheit: Wörterbuch nutzen (Duden Online)\n2. Lehnwörter folgen oft deutschen Regeln\n3. Bei -tion, -tät, -anz, -enz: immer mit t/z geschrieben"
+    },
+    {
+        "id": "direkte-rede",
+        "title": "Direkte & Indirekte Rede",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Zitate korrekt wiedergeben.",
+        "content": "### Direkte Rede\nDie genauen Worte werden zitiert:\n- Er sagte: 'Ich komme morgen.'\n- 'Ich komme morgen', sagte er.\n\n**Zeichensetzung:**\n- Doppelpunkt vor dem Zitat\n- Anführungszeichen unten öffnen: links unten\n- Anführungszeichen oben schließen: rechts oben\n\n### Indirekte Rede\nDie Aussage wird wiedergegeben, oft mit Konjunktiv I:\n- Direkt: Er sagte, er sei müde.\n- Indirekt: Er sagte, er **sei** müde.\n\n### Konjunktiv I Bildung\nInfinitivstamm + Endung:\n- sein → er **sei**\n- haben → er **habe**\n- kommen → er **komme**\n- Wenn Konjunktiv I = Indikativ → Konjunktiv II verwenden"
+    },
+    {
+        "id": "genus-regeln",
+        "title": "Wortbildung & Genus-Tricks",
+        "category": "Wortschatz",
+        "emoji": "",
+        "description": "Artikel herleiten durch Wortendungen.",
+        "content": "### Endungen die fast immer maskulin (der) sind\n-er, -ling, -ig, -ismus, -ant, -ist, -or\n- der Bäcker, der Frühling, der König, der Sozialismus\n\n### Endungen die fast immer feminin (die) sind\n-heit, -keit, -schaft, -ung, -tät, -ion, -ie, -ik, -enz, -anz\n- die Freiheit, die Einigkeit, die Zeitung, die Nation\n\n### Endungen die fast immer neutral (das) sind\n-chen, -lein, -nis (oft), -ment, -um, -tum\n- das Mädchen, das Blümlein, das Instrument, das Museum\n\n### Verbstämme als Nomen\nMeistens maskulin:\n- laufen → der Lauf\n- gang → der Gang\n- stand → der Stand"
+    },
+    {
+        "id": "steigerung",
+        "title": "Steigerung von Adjektiven",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Positiv, Komparativ und Superlativ.",
+        "content": "### Die drei Steigerungsstufen\n1. **Positiv** (Grundform): schnell\n2. **Komparativ** (Mehr): schnell**er**\n3. **Superlativ** (Am meisten): am schnell**sten** / der schnellste\n\n### Bildung\n- Komparativ: + **-er** (schneller, größer)\n- Superlativ: **am** + -sten (am schnellsten) oder der/die/das + -ste (der schnellste)\n\n### Unregelmäßige Steigerungen\n| Positiv | Komparativ | Superlativ |\n|---------|------------|------------|\n| gut | besser | am besten |\n| viel | mehr | am meisten |\n| gern | lieber | am liebsten |\n| hoch | höher | am höchsten |\n| nah | näher | am nächsten |\n\n### Umlaut-Veränderungen\nalt → älter → am ältesten\njung → jünger → am jünsten\nkalt → kälter → am kältesten"
+    },
+    {
+        "id": "partizip",
+        "title": "Partizipien als Adjektive",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Partizip I und II als Attribut nutzen.",
+        "content": "### Partizip I (laufend, sprechend)\nAktive Handlung, die gleichzeitig abläuft:\n- der **lachende** Mann (= der Mann, der lacht)\n- die **weinende** Frau\n- das **schlafende** Kind\n\nBildung: Infinitiv + **-d** → lachend, spielend\n\n### Partizip II (gelacht, gesprochen)\nAbgeschlossene oder passive Bedeutung:\n- der **gebaute** Turm (= der Turm, der gebaut wurde)\n- die **gelesene** Zeitung\n- das **vergessene** Buch\n\n### Deklination\nBeide Partizipien werden wie Adjektive dekliniert:\n- der lachend**e** Mann\n- die weinend**e** Frau\n- das schlafend**e** Kind"
+    },
+    {
+        "id": "ausdruck-schreiben",
+        "title": "Aufsatz & Ausdrucksweise",
+        "category": "Schreiben",
+        "emoji": "",
+        "description": "Tipps für bessere Texte und abwechslungsreichen Ausdruck.",
+        "content": "### Die 5 häufigsten Fehler beim Schreiben\n1. **Zu viele Wiederholungen**: Benutze Synonyme!\n2. **Zu kurze Sätze**: Verbinde mit Konjunktionen.\n3. **Falscher Tempus-Wechsel**: Bleib konsequent in einer Zeitform.\n4. **Fehlende Übergänge**: Benutze Konnektoren.\n5. **Umgangssprache**: Vermeide \"mega\", \"echt\", \"halt\".\n\n### Nützliche Konnektoren\n- **Ergänzung**: außerdem, darüber hinaus, zusätzlich\n- **Kontrast**: allerdings, jedoch, dennoch, trotzdem\n- **Folge**: deshalb, daher, folglich, somit\n- **Beispiel**: zum Beispiel, etwa, wie etwa\n- **Zeitlich**: zunächst, anschließend, schließlich\n\n### Gut statt gut\n| Langweilig | Besser |\n|------------|--------|\n| gut | hervorragend, ausgezeichnet |\n| schlecht | mangelhaft, bedenklich |\n| groß | gewaltig, umfangreich |\n| machen | erstellen, durchführen, umsetzen |"
+    },
+    {
+        "id": "synonyme",
+        "title": "Synonyme & Wortschatz erweitern",
+        "category": "Wortschatz",
+        "emoji": "",
+        "description": "Den aktiven Wortschatz ausbauen.",
+        "content": "### Was sind Synonyme?\nWörter mit gleicher oder ähnlicher Bedeutung: schön = hübsch = attraktiv = ansprechend\n\n### Strategien zum Wortschatzerwerb\n1. **Wortfeld-Methode**: Alle Wörter zum Thema sammeln\n2. **Kontext merken**: Wörter im Satz lernen, nicht isoliert\n3. **Ober- und Unterbegriffe**: Obst > Apfel, Birne, Banane\n4. **Wortfamilien**: fahren → Fahrt, Fahrer, Fahrzeug, abfahren\n\n### Häufige Synonymgruppen\n**sagen:** sprechen, äußern, bemerken, erklären, berichten, erwähnen\n**gehen:** wandern, schlendern, spazieren, eilen, schreiten\n**denken:** meinen, glauben, überlegen, nachdenken, urteilen\n\n### Antonyme (Gegensätze)\n- groß ↔ klein | hell ↔ dunkel\n- laut ↔ leise | schnell ↔ langsam\n- arm ↔ reich | alt ↔ jung"
+    },
+    {
+        "id": "wortarten",
+        "title": "Wortarten",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Nomen, Verben, Adjektive und mehr erkennen.",
+        "content": "Wörter werden nach ihrer Funktion im Satz in Wortarten eingeteilt.\n\n### Die wichtigsten Wortarten\n| Wortart | Funktion | Beispiel |\n|---|---|---|\n| **Nomen** | Benennt Dinge, Personen | der Baum, die Frau |\n| **Verb** | Drückt Handlungen aus | laufen, essen, sein |\n| **Adjektiv** | Beschreibt Eigenschaften | schön, schnell, blau |\n| **Pronomen** | Steht für ein Nomen | ich, du, mein, dieser |\n| **Artikel** | Begleitet das Nomen | der, ein, eine |\n| **Präposition** | Bestimmt das Verhältnis | in, auf, mit, für |\n| **Konjunktion** | Verbindet Sätze | und, aber, weil |\n| **Adverb** | Beschreibt Umstände | hier, gestern, sehr |"
+    },
+    {
+        "id": "numerus",
+        "title": "Numerus: Singular & Plural",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Einzahl und Mehrzahl im Deutschen.",
+        "content": "Der Numerus gibt an, ob es sich um eine Person/Sache (**Singular**) oder mehrere (**Plural**) handelt.\n\n### Pluralbildung\nEs gibt im Deutschen verschiedene Endungen für den Plural:\n- **-n / -en:** die Frau → die Frau**en**, die Rose → die Rose**n**\n- **-e:** der Tisch → die Tisch**e**, der Baum → die Bäum**e** (mit Umlaut)\n- **-er:** das Kind → die Kind**er**, das Haus → die Häus**er**\n- **-s:** das Auto → die Auto**s**, das Sofa → die Sofa**s**\n- **Keine Endung:** der Lehrer → die Lehrer, das Mädchen → die Mädchen\n\n### Besonderheiten\n- Viele Wörter ändern im Plural den Vokal zum **Umlaut**: Apfel → Äpfel, Buch → Bücher.\n- Manche Wörter gibt es nur im Plural: die Ferien, die Eltern, die Leute.\n- Manche nur im Singular: das Wasser (als Stoff), das Glück."
+    },
+    {
+        "id": "zeitformen-plus-futur",
+        "title": "Plusquamperfekt & Futur I",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Die Vorvergangenheit und die Zukunft.",
+        "content": "### Plusquamperfekt (Vorvergangenheit)\nWird benutzt, wenn etwas *vor* einem anderen Ereignis in der Vergangenheit passierte.\n\n**Bildung: hatten/waren + Partizip II**\n- Er **hatte** gegessen, bevor er ging.\n- Sie **war** gefahren, als es anfing zu regnen.\n\n### Futur I (Zukunft)\nWird benutzt für Absichten, Prognosen und Versprechen.\n\n**Bildung: werden + Infinitiv**\n- Ich **werde** morgen lernen.\n- Das Wetter **wird** schön sein.\n- Wir **werden** das Spiel gewinnen."
+    },
+    {
+        "id": "personalformen",
+        "title": "Personalformen der Verben",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Verben richtig konjugieren nach Person.",
+        "content": "Verben müssen an das Subjekt angepasst werden (Konjugation).\n\n### Die Personalpronomen\n- 1. Pers. Sing.: **ich**\n- 2. Pers. Sing.: **du**\n- 3. Pers. Sing.: **er, sie, es**\n- 1. Pers. Plur.: **wir**\n- 2. Pers. Plur.: **ihr**\n- 3. Pers. Plur.: **sie / Sie** (Höflichkeit)\n\n### Endungen (Präsens)\n| Person | Endung | Beispiel (lernen) |\n|---|---|---|\n| ich | -e | ich lern**e** |\n| du | -st | du lern**st** |\n| er/sie | -t | er lern**t** |\n| wir | -en | wir lern**en** |\n| ihr | -t | ihr lern**t** |\n| sie/Sie | -en | sie lern**en** |"
+    },
+    {
+        "id": "infinitiv",
+        "title": "Infinitiv",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Die Grundform der Verben erkennen.",
+        "content": "Der Infinitiv ist die Grundform des Verbs. Er endet fast immer auf **-en** oder **-n**.\n\n### Verwendung\n- Im Wörterbuch: *laufen, sehen, sein*\n- Nach Modalverben: Ich kann **schwimmen**.\n- Mit 'zu': Es ist schwer, das **zu verstehen**.\n- Futur I: Er wird **kommen**.\n- Nominalisierung: das Laufen, das Essen, das Lernen."
+    },
+    {
+        "id": "satzarten",
+        "title": "Satzarten",
+        "category": "Satzbau",
+        "emoji": "",
+        "description": "Aussage, Frage oder Aufforderung?",
+        "content": "Je nach Absicht des Sprechers gibt es verschiedene Satzarten.\n\n### 1. Aussagesatz\nInformiert über einen Sachverhalt. Punkt am Ende.\n- Ich gehe heute in die Schule.\n- Das Wetter ist schön.\n\n### 2. Fragesatz\nSucht nach Information. Fragezeichen am Ende.\n- **Entscheidungsfrage:** Kommst du mit? (Verb an Pos. 1)\n- **Ergänzungsfrage (W-Frage):** Wo wohnst du? (Fragewort an Pos. 1, Verb an Pos. 2)\n\n### 3. Aufforderungssatz (Imperativ)\nBefehl, Bitte oder Rat. Ausrufezeichen am Ende.\n- Komm her!\n- Hilf mir bitte!\n- Seien Sie vorsichtig!"
+    },
+    {
+        "id": "satzglieder",
+        "title": "Satzglieder",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Die Bausteine eines Satzes: Subjekt, Prädikat, Objekt.",
+        "content": "Sätze bestehen aus Bausteinen, die man verschieben kann (Umstellprobe).\n\n### Die wichtigsten Satzglieder\n1. **Subjekt (Wer oder was?):** Die handelnde Person/Sache. Steht im Nominativ.\n   - **Der Hund** bellt.\n2. **Prädikat (Was tut das Subjekt?):** Das Verb im Satz.\n   - Der Hund **bellt**.\n3. **Objekt (Wen, Wem, Wessen?):** Ergänzung durch Verben.\n   - Ich sehe **den Hund**.\n4. **Adverbiale Bestimmung (Wann, wo, wie, warum?):** Umstände der Handlung.\n   - Er schläft **im Garten**."
+    },
+    {
+        "id": "objekte",
+        "title": "Objekte",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Akkusativ-, Dativ- und Genitivobjekte.",
+        "content": "Objekte ergänzen das Prädikat und stehen in einem bestimmten Kasus.\n\n### Akkusativobjekt (Wen oder was?)\nAm häufigsten. Direktes Objekt.\n- Ich esse **einen Apfel**.\n\n### Dativobjekt (Wem?)\nIndirektes Objekt, oft Personen.\n- Ich danke **dir**.\n- Er hilft **seiner Mutter**.\n\n### Genitivobjekt (Wessen?)\nSelten, nach bestimmten Verben.\n- Wir gedenken **der Toten**.\n- Sie schämt sich **ihres Fehlers**."
+    },
+    {
+        "id": "adverbiale",
+        "title": "Adverbialbestimmungen",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Zeit, Ort, Grund und Art der Handlung.",
+        "content": "Sie geben genauere Informationen über die Umstände.\n\n### Die 4 Arten\n| Art | Frage | Beispiel |\n|---|---|---|\n| **Temporal** (Zeit) | Wann? Wie lange? | **Gestern** hat es geregnet. |\n| **Lokal** (Ort) | Wo? Wohin? Woher? | Sie arbeitet **im Büro**. |\n| **Kausal** (Grund) | Warum? Weshalb? | Er fehlt **wegen Krankheit**. |\n| **Modal** (Art & Weise) | Wie? | Sie singt **schön**. |"
+    },
+    {
+        "id": "satzgefüge-reihe",
+        "title": "Satzreihe & Satzgefüge",
+        "category": "Satzbau",
+        "emoji": "",
+        "description": "Haupt- und Nebensätze richtig verbinden.",
+        "content": "### Satzreihe (Parataxe)\nVerbindung von zwei oder mehr gleichwertigen **Hauptsätzen**.\n- Verknüpft mit: *und, oder, aber, denn, sondern.*\n- Beispiel: Ich lerne **und** du schläfst.\n\n### Satzgefüge (Hypotaxe)\nVerbindung von **Hauptsatz** und **Nebensatz**.\n- Der Nebensatz ist vom Hauptsatz abhängig.\n- Verknüpft mit Subjunktionen: *weil, dass, wenn, obwohl...*\n- Beispiel: Ich bleibe zu Hause, **weil es regnet**.\n- Wichtig: Das Verb im Nebensatz steht am Ende!"
+    },
+    {
+        "id": "konjunktionalsaetze",
+        "title": "Konjunktionalsätze",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Nebensätze mit weil, dass, wenn, obwohl.",
+        "content": "Dies sind Nebensätze, die durch eine unterordnende Konjunktion eingeleitet werden.\n\n### Häufige Typen\n- **Kausalsatz (Grund):** ... **weil** ich müde bin.\n- **Konditionalsatz (Bedingung):** ... **wenn** ich Zeit habe.\n- **Konzessivsatz (Gegengrund):** ... **obwohl** es spät ist.\n- **Finalsatz (Absicht):** ... **damit** ich lerne.\n- **Objektsatz:** Ich weiß, **dass** du kommst."
+    },
+    {
+        "id": "satzbau-analyse",
+        "title": "Satzbau & Analyse",
+        "category": "Grammatik",
+        "emoji": "",
+        "description": "Sätze zerlegen und richtig aufbauen.",
+        "content": "Wie man die Struktur eines Satzes erkennt.\n\n### Schritte der Analyse\n1. **Prädikat finden:** Was ist die Handlung? (Verb suchen)\n2. **Subjekt finden:** Wer handelt? (Frage: Wer oder was?)\n3. **Objekte bestimmen:** Wen oder was? Wem? Wessen?\n4. **Adverbiale finden:** Wo, wann, wie, warum?\n\n### Umstellprobe\nBilde alternative Sätze, um Satzglieder zu identifizieren:\n- *Gestern (1) gab (2) ich (3) ihm (4) das Buch (5).*\n- *Ich (3) gab (2) ihm (4) gestern (1) das Buch (5).*\n- Bausteine, die zusammenbleiben, sind ein Satzglied."
+    },
+    {
+        "id": "wörtliche-rede-zeichen",
+        "title": "Wörtliche Rede & Zeichen",
+        "category": "Zeichensetzung",
+        "emoji": "",
+        "description": "Anführungszeichen und Begleitsätze richtig setzen.",
+        "content": "Drei Varianten des Begleitsatzes:\n\n### 1. Begleitsatz vorn\nEr sagte**:** **„**Ich komme morgen.**“**\n\n### 2. Begleitsatz hinten\n**„**Ich komme morgen**“**, sagte er.\n*Achtung: Kein Punkt nach 'morgen', aber Fragezeichen/Ausrufezeichen bleiben.*\n- „Kommst du?“ , fragte er.\n\n### 3. Begleitsatz eingeschoben\n**„**Ich komme**“**, sagte er**, „**morgen.**“**"
+    }
+]

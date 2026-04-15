@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lerndex – Deine Deutsch-Plattform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Auth Screens -->
+  <div id="auth-view" class="auth-container hidden">
+    <div class="auth-card">
+      <h2 id="auth-title">Anmelden</h2>
+      <p id="auth-subtitle">Willkommen zurück bei Lerndex.</p>
+
+      <form id="auth-form">
+        <input type="text" id="auth-name" placeholder="Vollständiger Name" class="hidden">
+        <input type="email" id="auth-email" placeholder="E-Mail-Adresse" required>
+        <input type="password" id="auth-password" placeholder="Passwort" required>
+        <button type="submit" id="auth-submit" class="btn btn-primary" style="width: 100%">Anmelden</button>
+      </form>
+
+      <div style="margin-top: 1.5rem; text-align: center;">
+        <button id="toggle-auth" class="btn btn-ghost" style="font-size: 0.85rem">Noch kein Konto? Registrieren</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Student Locked Screen -->
+  <div id="lock-view" class="auth-container hidden">
+    <div class="auth-card" style="text-align: center;">
+      <h2>Klassenzimmer-Modus</h2>
+      <p>Der Chat wurde in einem neuen Fenster geöffnet. Bitte bearbeite deine Aufgaben dort.</p>
+      <button class="btn btn-primary" onclick="app.openChat()">Chat erneut öffnen</button>
+      <div style="margin-top: 2rem;">
+        <button class="btn btn-ghost" onclick="app.logout()">Abmelden</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Shell -->
+  <div id="app-shell" class="hidden">
+    <nav id="main-nav">
+      <div class="logo">Lerndex</div>
+      <div class="nav-links">
+        <button class="btn btn-ghost nav-item" data-view="home">Themen</button>
+        <button class="btn btn-ghost nav-item" id="nav-chat" onclick="app.openChat()">KI-Chat</button>
+        <button class="btn btn-ghost nav-item" data-view="games">Spiele</button>
+        <button id="nav-admin" class="btn btn-ghost nav-item hidden" data-view="admin">Admin</button>
+        <button id="nav-teacher" class="btn btn-ghost nav-item hidden" data-view="teacher">Lehrer</button>
+        <button id="logout-btn" class="btn btn-ghost">Abmelden</button>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <!-- Home View -->
+      <section id="view-home" class="view hidden">
+        <header style="margin-bottom: 3rem; text-align: center;">
+          <h1 style="font-size: 2.5rem; margin-bottom: 1rem">Deutsch lernen leicht gemacht</h1>
+          <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto">Suche nach Grammatikthemen, übe mit der
+            KI oder spiele unsere Lernspiele.</p>
+        </header>
+
+        <div class="search-section" style="max-width: 800px; margin: 0 auto 3rem auto">
+          <input type="text" id="topic-search" placeholder="Suche nach Themen (z.B. Passiv, Kasus...)"
+            style="font-size: 1.1rem; padding: 1rem 1.5rem">
+          <div id="category-filters" style="display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap;">
+            <button class="btn btn-ghost filter-btn active" data-category="all">Alle</button>
+            <button class="btn btn-ghost filter-btn" data-category="Grammatik">Grammatik</button>
+            <button class="btn btn-ghost filter-btn" data-category="Satzbau">Satzbau</button>
+            <button class="btn btn-ghost filter-btn" data-category="Rechtschreibung">Rechtschreibung</button>
+            <button class="btn btn-ghost filter-btn" data-category="Zeichensetzung">Zeichensetzung</button>
+            <button class="btn btn-ghost filter-btn" data-category="Wortschatz">Wortschatz</button>
+          </div>
+        </div>
+
+        <div id="topic-grid" class="topic-grid"></div>
+      </section>
+
+      <!-- Topic Detail View -->
+      <section id="view-topic-detail" class="view hidden">
+        <button class="btn btn-ghost" onclick="app.navigate('home')" style="margin-bottom: 1rem">← Zurück zur
+          Übersicht</button>
+        <div id="topic-content" class="auth-card" style="max-width: 100%; text-align: left;">
+          <!-- Content injected by JS -->
+        </div>
+      </section>
+
+      <!-- Games View -->
+      <section id="view-games" class="view hidden">
+        <div class="topic-grid">
+          <div class="topic-card" onclick="app.startGame('artikel')">
+            <h3>Artikel-Blitz</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem">Der, Die oder Das? Teste deine Reflexe.</p>
+          </div>
+          <div class="topic-card" onclick="app.startGame('luckentext')">
+            <h3>Lückentext</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem">Fülle die Lücken im Text korrekt aus.</p>
+          </div>
+          <div class="topic-card" onclick="app.startGame('wortduell')">
+            <h3>Wort-Duell</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem">Bringe die Buchstaben in die richtige Reihenfolge.
+            </p>
+          </div>
+        </div>
+        <div id="game-container" class="auth-card hidden" style="max-width: 600px; margin: 2rem auto;">
+          <!-- Game content injected by JS -->
+        </div>
+      </section>
+
+      <!-- Admin View -->
+      <section id="view-admin" class="view hidden">
+        <div class="admin-grid">
+          <aside class="admin-sidebar">
+            <button class="active" onclick="app.setAdminTab('settings')">Einstellungen</button>
+            <button onclick="app.setAdminTab('classrooms')">Klassenzimmer</button>
+            <button onclick="app.setAdminTab('users')">Nutzer</button>
+          </aside>
+          <div id="admin-content">
+            <!-- Admin content injected by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Teacher View -->
+      <section id="view-teacher" class="view hidden">
+        <h2>Lehrer-Dashboard</h2>
+        <p style="color: var(--text-muted); margin-bottom: 2rem">Überwache den Chat-Verlauf deiner Klassen in Echtzeit.
+        </p>
+
+        <div class="admin-grid">
+          <aside class="admin-sidebar" id="teacher-classroom-list">
+            <!-- List of classrooms -->
+          </aside>
+          <div id="teacher-chat-history" class="chat-container">
+            <div id="teacher-history-content" style="padding: 1.5rem; overflow-y: auto; flex: 1;">
+              <p style="color: var(--text-muted); text-align: center; margin-top: 5rem">Wähle ein Klassenzimmer aus, um
+                den Verlauf zu sehen.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="hidden"
+    style="position: fixed; bottom: 2rem; right: 2rem; background: var(--text-main); color: #fff; padding: 1rem 1.5rem; border-radius: var(--radius); z-index: 1000;">
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

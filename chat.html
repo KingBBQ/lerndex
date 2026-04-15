@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lerndex – KI-Assistent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: var(--bg-card);
+            overflow: hidden;
+        }
+
+        .chat-container {
+            height: 100vh;
+            border-radius: 0;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="internal-chat-container" class="chat-container">
+        <div id="chat-history"></div>
+        <div class="chat-input-area">
+            <textarea id="chat-input" placeholder="Frage stellen..." rows="1"
+                style="margin-bottom: 0; resize: none;"></textarea>
+            <button id="send-chat" class="btn btn-primary">Senden</button>
+        </div>
+    </div>
+
+    <div id="external-chat-container" class="hidden" style="height: 100vh; width: 100%;">
+        <iframe id="external-chat-iframe" src="" style="width: 100%; height: 100%; border: none;"></iframe>
+    </div>
+
+    <script>
+        const chat = {
+            token: localStorage.getItem('lerndex_token'),
+
+            async init() {
+                if (!this.token) {
+                    window.location.href = '/';
+                    return;
+                }
+
+                const resp = await fetch('/api/admin/settings', { headers: { 'Authorization': `Bearer ${this.token}` } });
+                const settings = await resp.json();
+
+                if (settings.ai_provider === 'external') {
+                    document.getElementById('internal-chat-container').classList.add('hidden');
+                    document.getElementById('external-chat-container').classList.remove('hidden');
+                    document.getElementById('external-chat-iframe').src = "https://chat.telli.schule/ua/characters/b893ff22-f263-4048-99ab-05a2c4ebc897/dialog?inviteCode=ILYDWVH6";
+                } else {
+                    this.setupInternalChat();
+                }
+            },
+
+            setupInternalChat() {
+                const input = document.getElementById('chat-input');
+                const sendBtn = document.getElementById('send-chat');
+                const history = document.getElementById('chat-history');
+
+                const addMessage = (role, content) => {
+                    const div = document.createElement('div');
+                    div.className = `message ${role}`;
+                    div.textContent = content;
+                    history.appendChild(div);
+                    history.scrollTop = history.scrollHeight;
+                };
+
+                sendBtn.onclick = async () => {
+                    const content = input.value.trim();
+                    if (!content) return;
+                    input.value = '';
+                    addMessage('user', content);
+
+                    try {
+                        const resp = await fetch('/api/chat', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'Authorization': `Bearer ${this.token}`
+                            },
+                            body: JSON.stringify({ message: content })
+                        });
+                        const data = await resp.json();
+                        addMessage('assistant', data.response);
+                    } catch (e) {
+                        addMessage('assistant', 'Fehler: Konnte keine Verbindung aufbauen.');
+                    }
+                };
+
+                input.onkeydown = (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendBtn.click(); } };
+            }
+        };
+        chat.init();
+    </script>
+</body>
+
+</html>

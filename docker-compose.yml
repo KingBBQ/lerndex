@@ -1,6 +1,7 @@
 services:
   lerndex:
     build: .
+    platform: linux/amd64
     restart: unless-stopped
     volumes:
       - db_data:/app/lerndex.db

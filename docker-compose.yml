@@ -5,12 +5,12 @@ services:
     volumes:
       - db_data:/app/lerndex.db
     environment:
-      - PORT=8080
+      - PORT=80
     networks:
       - web
     labels:
       caddy: lerndex-janik.hackerwerkstatt.de
-      caddy.reverse_proxy: "{{upstreams 8080}}"
+      caddy.reverse_proxy: "{{upstreams 80}}"
 
 volumes:
   db_data:
